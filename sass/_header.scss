@@ -6,8 +6,16 @@
 .accentDiv {
 	position: relative;
 	height: 91.5vh;
-	background: peachpuff;
+	background: #333;
 	width: 50%;
+
+	h1, h4 {
+		color: #fff;
+	}
+
+	.accentBorder:after {
+		background: #fff;
+	}
 }
 
 .headerText {
@@ -28,7 +36,7 @@
 	width: 50%;
 	margin: 2vh;
 	height: 46vh;
-	background: rgba(255, 255, 255, 0.85);
+	background: rgba(0, 0, 0, 0.6);
 	align-items: center;
 	justify-content: center;
 }

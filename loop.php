@@ -42,7 +42,7 @@
 					</section><!-- .entry-content -->
 
 					<footer>
-						<p><?php //the_tags('Tags: ', ', ', '<br>'); ?> Posted in <?php the_category(', '); ?> &#8226; <?php edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?> &#8226; <?php comments_popup_link('Respond to this post &raquo;', '1 Response &raquo;', '% Responses &raquo;'); ?></p>
+						<p class="postLink"><?php //the_tags('Tags: ', ', ', '<br>'); ?> Posted in <?php the_category(', '); ?> &#8226; <?php edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?> &#8226; <?php comments_popup_link('Respond to this post &raquo;', '1 Response &raquo;', '% Responses &raquo;'); ?></p>
 		        <p></p>
 		        <p></p>
 					</footer>
