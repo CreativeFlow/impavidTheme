@@ -1,18 +1,61 @@
+/*
+====================================
+Variables
+====================================
+*/
+$hoverColor: #FF913C;
+
 h1, h2, h3 {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 }
 
+h1 {
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+
 h4 {
 	font-family: 'Cutive Mono', serif;
+	font-size: 18px;
 }
 
 a {
-	color: #BA209B;
+	color: #333;
 	text-decoration: none;
 	&:hover {
-		color: #D424B1;
+		color: $hoverColor;
 	}
+}
+
+.entry-title, .entry-meta {
+		color: #fff;
+}
+
+.entry-meta {
+	font-family: 'Cutive Mono', sans-serif;
+	font-size: 20px;
+
+	a {
+		color: $hoverColor;
+	}
+	a:hover {
+		color: #fff;
+	}
+}
+
+.entry-utility {
+	font-family: 'Cutive Mono', sans-serif;
+
+	a {
+		color: $hoverColor;
+	}
+}
+
+.pageTitle {
+	font-size: 50px;
+	color: #fff;
+	letter-spacing: 5px;
 }
 
 /* paragraphs */
@@ -105,3 +148,36 @@ img {
 	float: left;
 	clear: both;
 }
+
+/*Button Styles*/
+input, textarea {
+	border-top: 1px solid $hoverColor;
+	border-left: 1px solid $hoverColor;
+	border-right: 1px solid #333;
+	border-bottom: 1px solid #333;
+}
+
+input {
+	padding: 1vh;
+}
+
+#respond .form-submit input, .wpcf7-submit {
+	background: white;
+	padding: 15px 40px;
+	font-family: 'Montserrat', sans-serif;
+	border-top: 1px solid $hoverColor;
+	border-left: 1px solid $hoverColor;
+	border-right: 1px solid #333;
+	border-bottom: 1px solid #333;
+	text-transform: uppercase;
+	color: #333;
+	margin-top: 10px;
+	letter-spacing: 2px;
+}
+
+// input.searchsubmit {
+//  	background: white;
+//  	padding: 20px 60px;
+//  	border: 2px solid black;
+//  	color: $hoverColor;
+//  }

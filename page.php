@@ -9,7 +9,7 @@
           // $postTitle = get_the_title();
           // $postTitle = strtoupper($postTitle); //a PHP function that makes a string all caps
          ?>
-        <h2><?php the_title(); ?></h2>
+        <h2 class><?php the_title(); ?></h2>
        
         <p><?php echo get_avatar( get_the_author_meta( 'ID' ), 50 ); ?> Posted By <?php the_author_posts_link(); ?> on <?php the_date('D M d'); ?> (<?php the_time(); ?>)</p>
         <?php the_content(); ?>

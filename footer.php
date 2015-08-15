@@ -1,6 +1,6 @@
 <footer>
   <div class="footerWrapper flex">
-  		<div class="footerContact">
+  		<div class="footerSocial">
   			<p>
   				<?php 
   				 // Custom widget Area Start
@@ -11,7 +11,8 @@
   			</p>
   			
   		</div>
-  		<div class="footerSocial"><p>Impavid Theme &copy; Christina Fung &amp; Tim Jack Wilkins <?php echo date('Y'); ?></p></div>
+  		<div class="footerCopyright"><p>Impavid Theme &copy; <a href="http://www.christinafung.com" target="_blank">Christina Fung</a> &amp; <a href="http://www.timjackwilkins.com" target="_blank">Tim Jack Wilkins</a> <?php echo date('Y'); ?></p>
+      <p>Artwork &copy; Nielly Francoise</p></div>
   </div>
 
 </footer>

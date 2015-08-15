@@ -15,7 +15,7 @@ get_header();  ?>
   	<?php endif; ?>
   <div class="fullPageHeader" style="background: url('<?php echo $image[0]; ?>') no-repeat; background-size: cover;">
   	<div class="fullPageTitle flex">
-  		<h2><?php the_title(); ?></h2>
+  		<h2 class="pageTitle"><?php the_title(); ?></h2>
   	</div>
   </div>
 

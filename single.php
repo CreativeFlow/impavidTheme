@@ -6,7 +6,7 @@
       <?php if (has_post_thumbnail( $post->ID ) ): ?>
       <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
       <?php endif; ?>
-    <div class="fullPageHeader" style="background: url('<?php echo $image[0]; ?>') no-repeat; background-size: cover;">
+    <div class="fullPageHeader" style="background: linear-gradient(to left, rgba(0,0,0, 0.6), rgba(0,0,0,0.6)), url('<?php echo $image[0]; ?>') no-repeat; background-size: cover;">
       <div class="singleTitle flex">
          <h1 class="entry-title">
             <?php the_title(); ?>
